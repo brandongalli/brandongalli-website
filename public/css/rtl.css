@@ -1,0 +1,527 @@
+html {
+  direction: rtl;
+}
+
+ul {
+  padding-right: 0;
+}
+
+.owl-carousel {
+  direction: ltr;
+}
+
+.owl-carousel .owl-item {
+  direction: rtl;
+}
+
+.navbar-light .navbar-nav {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.navbar-light .side-nav {
+  margin-left: 0;
+  margin-right: 15px;
+}
+
+.navbar-brand {
+  margin-right: 0;
+  margin-left: 12px;
+}
+
+.main-area .main-left-img {
+  left: unset;
+  right: 0;
+}
+
+.main-area .main-content {
+  padding-left: 0;
+  padding-right: 500px;
+}
+
+.banner-area .banner-content .banner-btn-area .banner-btn {
+  margin-left: 0;
+  margin-right: 15px;
+}
+
+.banner-area .banner-content ul li {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.banner-area .banner-content ul li:last-child {
+  margin-left: 0;
+}
+
+.common-right-text {
+  right: unset;
+  left: -145px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.common-right-text.two {
+  right: unset;
+  left: -250px;
+}
+
+.demo-side-icon {
+  right: unset;
+  left: -1px;
+}
+
+.demo-side-icon .modal-btn-two span {
+  border-radius: 0 5px 5px 0;
+}
+
+.modal-header .close {
+  margin-right: auto;
+  margin-left: 0;
+  padding: 0;
+}
+
+.demos-side-content .modal.modal-right .modal-dialog {
+  -webkit-transform: translate(-100%, 0);
+          transform: translate(-100%, 0);
+  margin: 0 auto 0 0;
+}
+
+.section-title .sub-title {
+  padding-left: 0;
+  padding-right: 40px;
+}
+
+.section-title .sub-title:before {
+  left: unset;
+  right: 0;
+}
+
+.about-area .about-content ul li span {
+  margin-right: 0;
+  margin-left: 3px;
+}
+
+.what-item .what-btn i {
+  left: unset;
+  right: 6px;
+}
+
+.what-item .what-btn:hover i {
+  left: unset;
+  right: 2px;
+}
+
+.what-area .common-right-text {
+  right: unset;
+  left: -175px;
+}
+
+.experience-area .experience-content .experience-inner ul li:nth-child(2) {
+  margin-left: 0;
+  margin-right: 12px;
+}
+
+.experience-area .experience-content .experience-inner ul li:nth-child(3) {
+  margin-left: 0;
+  margin-right: 12px;
+}
+
+.experience-area .common-right-text {
+  right: unset;
+  left: -310px;
+}
+
+.portfolio-item .bottom .bottom-one {
+  padding-left: 0;
+  padding-right: 20px;
+  border-left: 0;
+  border-right: 2px solid #fff;
+}
+
+.portfolio-item .bottom .bottom-two a i {
+  left: unset;
+  right: 5px;
+}
+
+.awards-area .awards-inner ul li:nth-child(2) {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.awards-area .common-right-text {
+  right: unset;
+  left: -200px;
+}
+
+.blog-item .top h4 {
+  left: unset;
+  right: 15px;
+}
+
+.blog-area .common-right-text {
+  right: unset;
+  left: -100px;
+}
+
+.review-area .common-right-text {
+  right: unset;
+  left: -165px;
+}
+
+.contact-area #contactForm .form-group .form-control {
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+.contact-area .contact-content .bottom ul li {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.contact-area .contact-content .bottom ul li:last-child {
+  margin-left: 0;
+}
+
+.contact-area .common-right-text {
+  right: unset;
+  left: -230px;
+}
+
+.section-title.two .sub-title {
+  padding-right: 0;
+}
+
+.about-area.two .about-img img:nth-child(2) {
+  margin-left: 0;
+  margin-right: 105px;
+}
+
+.awards-area.two .awards-inner ul li:nth-child(2) {
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.awards-area.two .awards-inner ul li:nth-child(3) {
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.ticket-area .ticket-item .form-group .form-control {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.nice-select span {
+  position: absolute;
+  right: 20px;
+  top: 0;
+}
+
+.nice-select:after {
+  right: unset;
+  left: 12px;
+}
+
+.ticket-area .ticket-item .form-group .nice-select .list li {
+  text-align: right;
+}
+
+.pufo-aside {
+  left: unset;
+  right: 0;
+  border-right: 0;
+  border-left: 1px solid #dddddd38;
+}
+
+.banner-area.three .common-right-text-two {
+  right: unset;
+  left: 25px;
+  text-align: left;
+}
+
+.main-area .main-content.two {
+  padding-left: 0;
+  padding-right: 365px;
+}
+
+.what-area.three .what-item {
+  text-align: right;
+}
+
+.skills-area .skill1 .skill-count1 {
+  right: unset;
+  left: 7px;
+}
+
+.skills-area .skill2 .skill-count2 {
+  right: unset;
+  left: 7px;
+}
+
+.skills-area .skill3 .skill-count3 {
+  right: unset;
+  left: 7px;
+}
+
+.skills-area .skill4 .skill-count4 {
+  right: unset;
+  left: 7px;
+}
+
+.skills-area .skill5 .skill-count5 {
+  right: unset;
+  left: 7px;
+}
+
+.go-top {
+  right: unset;
+  left: 15px;
+}
+
+.banner-area.four .banner-img img {
+  right: unset;
+  left: 75px;
+}
+
+.banner-area.five .banner-content .banner-img {
+  right: unset;
+  left: -45px;
+}
+
+.what-area.two .what-item {
+  text-align: right;
+}
+
+.about-area.five .section-title.five {
+  text-align: right;
+}
+
+.blog-area.five .blog-thumb-item ul li span {
+  left: unset;
+  right: 5px;
+}
+
+.blog-area.five .blog-thumb-item ul li:nth-child(2) {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.contact-area .contact-content .top ul li span {
+  margin-right: 0;
+  margin-left: 3px;
+}
+
+.about-area.six .section-title.six {
+  text-align: right;
+}
+
+.what-area.six .what-item {
+  text-align: right;
+}
+
+.page-title-area .title-content ul li:before {
+  left: unset;
+  right: 53px;
+}
+
+.blog-details-area .details-img-info .info li {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.blog-details-area .details-img-info .info li:last-child {
+  margin-left: 0;
+}
+
+.details-pages .pages-item.three {
+  text-align: left;
+}
+
+.blog-details-area .details-comments ul li img {
+  left: unset;
+  right: 0;
+}
+
+.blog-details-area .details-comments ul li {
+  padding-left: 0;
+  padding-right: 125px;
+}
+
+.blog-details-area .details-comments ul li a {
+  right: unset;
+  left: 0;
+}
+
+.blog-details-area .details-leave .form-group .form-control {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.widget-area .search .form-control {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.widget-area .search .btn {
+  right: unset;
+  left: 15px;
+}
+
+.widget-area .recent .recent-inner ul li:nth-child(2) {
+  margin-left: 0;
+  margin-right: 15px;
+}
+
+.widget-area .tags ul li {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.language-sidebar {
+  left: 0;
+  right: auto;
+}
+
+.back-to-top {
+  left: 15px;
+  right: auto;
+}
+
+.about-area.four .section-title.four {
+  text-align: right;
+}
+
+.blog-details-area .details-img-info .item li i {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.page-title-area .title-content ul li {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+.page-title-area .title-content ul li:last-child {
+  margin-left: 0;
+}
+
+.top-header ul {
+  text-align: left;
+}
+
+.case-study-area .case-study-content .case-study-btn i {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.case-study-details-area .details-goal ul li i {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+  .main-area .main-content {
+    padding-right: 0;
+  }
+  .about-area.two .about-img img:nth-child(2) {
+    margin-right: 0;
+  }
+  .main-area .main-content.two {
+    padding-right: 0;
+  }
+  .what-area.three .what-item {
+    text-align: center;
+  }
+  .banner-area.four .banner-img img {
+    left: 0;
+  }
+  .banner-area.five .banner-content .banner-img {
+    left: 0;
+  }
+  .what-area.two .what-item {
+    text-align: center;
+  }
+  .blog-area.five .blog-thumb-item {
+    text-align: right;
+  }
+  .about-area.five .section-title.five {
+    text-align: center;
+  }
+  .about-area.six .section-title.six {
+    text-align: center;
+  }
+  .what-area.six .what-item {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main-area .main-content {
+    padding-right: 0;
+  }
+  .main-area .main-content.two {
+    padding-right: 0;
+  }
+  .what-area.three .what-item {
+    text-align: center;
+  }
+  .banner-area.four .banner-img img {
+    left: 0;
+  }
+  .what-area.two .what-item {
+    text-align: center;
+  }
+  .about-area.five .section-title.five {
+    text-align: center;
+  }
+  .blog-area.five .blog-thumb-item {
+    text-align: right;
+  }
+  .about-area.six .section-title.six {
+    text-align: center;
+  }
+  .what-area.six .what-item {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .main-area .main-content {
+    padding-right: 365px;
+  }
+  .banner-area.four .banner-img img {
+    left: 0;
+  }
+  .banner-area.five .banner-content .banner-social-text {
+    left: unset;
+    right: 10px;
+  }
+  .banner-area.five .banner-content .banner-email {
+    left: unset;
+    right: 70px;
+  }
+  .banner-area.five .banner-content .banner-img {
+    left: 0;
+  }
+  .about-area.two .about-img img:nth-child(2) {
+    margin-right: 15px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .main-area .main-content {
+    padding-right: 650px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .pufo-aside .logo {
+    left: auto;
+    right: 20px;
+  }
+  .pufo-aside .toggler-btn {
+    right: unset;
+    left: 20px;
+  }
+}
+/*# sourceMappingURL=rtl.css.map */
