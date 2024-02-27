@@ -4,7 +4,7 @@ import Link from 'next/link';
 const MainBanner = () => {
     return (
         <div id="home" className="banner-area border-bottom">
-            <div className="common-right-text two">
+            <div className="common-right-text">
                 <span>Brandon</span>
             </div>
 
@@ -32,28 +32,23 @@ const MainBanner = () => {
 
                             <ul>
                                 <li> 
-                                    <a href="https://www.facebook.com/" target="_blank">
+                                    <a href="https://www.facebook.com/profile.php?id=100089644460850" target="_blank">
                                         <i className='bx bxl-facebook'></i>
                                     </a> 
                                 </li>
                                 <li> 
-                                    <a href="https://www.twitter.com/" target="_blank">
+                                    <a href="https://twitter.com/BrandonGal57781" target="_blank">
                                         <i className='bx bxl-twitter'></i>
                                     </a> 
                                 </li>
                                 <li> 
-                                    <a href="https://www.linkedin.com/" target="_blank">
+                                    <a href="https://www.linkedin.com/in/brandongalli32" target="_blank">
                                         <i className='bx bxl-linkedin'></i>
                                     </a> 
                                 </li>
                                 <li> 
-                                    <a href="https://www.behance.com/" target="_blank">
-                                        <i className='bx bxl-behance'></i>
-                                    </a> 
-                                </li>
-                                <li> 
-                                    <a href="https://www.dribbble.com/" target="_blank">
-                                        <i className='bx bxl-dribbble'></i>
+                                    <a href="https://www.github.com/brandongalli" target="_blank">
+                                        <i className='bx bxl-github'></i>
                                     </a> 
                                 </li>
                             </ul>

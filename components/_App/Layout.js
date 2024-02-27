@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
                     name="viewport" 
                     content="width=device-width, initial-scale=1, shrink-to-fit=no" 
                 />
-                <title>Reton - Resume CV React Next.js Template</title>
+                <title>Brandon Galli - Software Engineer</title>
             </Head>
 
             {children}

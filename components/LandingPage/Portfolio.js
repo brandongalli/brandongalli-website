@@ -14,19 +14,19 @@ const Portfolio = () => {
                     <div className="col-sm-6 col-lg-6">
                         <div className="portfolio-item">
                             <div className="top">
-                                <img src="/images/portfolio/portfolio1.jpg" alt="Portfolio" />
+                                <img src="/images/portfolio/cru.png" alt="Portfolio" />
                             </div>
                             <div className="bottom">
                                 <div className="bottom-one">
                                     <h3>
                                         <Link href="/case-study-details">
-                                            <a target="_blank">Restaurant App</a>
+                                            <a target="_blank">The Commission for Regulation of Utilities</a>
                                         </Link>
                                     </h3>
-                                    <span>APP DESIGN</span>
+                                    <span>Content Management System</span>
                                 </div>
                                 <div className="bottom-two">
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                                    <p>Python, Django, React.js, Next.js, AWS</p>
 
                                     <Link href="/case-study-details">
                                         <a target="_blank">
@@ -41,19 +41,19 @@ const Portfolio = () => {
                     <div className="col-sm-6 col-lg-6">
                         <div className="portfolio-item">
                             <div className="top">
-                                <img src="/images/portfolio/portfolio2.jpg" alt="Portfolio" />
+                                <img src="/images/portfolio/taza.png" alt="Portfolio" />
                             </div>
                             <div className="bottom">
                                 <div className="bottom-one">
                                     <h3>
                                         <Link href="/case-study-details">
-                                            <a target="_blank">Vegetable Shop</a>
+                                            <a target="_blank">Taza</a>
                                         </Link>
                                     </h3>
-                                    <span>Vegetable</span>
+                                    <span>Vegetable Shop</span>
                                 </div>
                                 <div className="bottom-two">
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                                    <p>Python, Flask, Vue.js, AWS</p>
                                     <Link href="/case-study-details">
                                         <a target="_blank">
                                             Explore More <i className="flaticon-right-arrow"></i>
@@ -67,19 +67,19 @@ const Portfolio = () => {
                     <div className="col-lg-12">
                         <div className="portfolio-item">
                             <div className="top">
-                                <img src="/images/portfolio/portfolio3.jpg" alt="Portfolio" />
+                                <img src="/images/portfolio/voxsnap.png" alt="Portfolio" />
                             </div>
                             <div className="bottom">
                                 <div className="bottom-one">
                                     <h3>
                                         <Link href="/case-study-details">
-                                            <a target="_blank">Business Card Design</a>
+                                            <a target="_blank">Multi Media</a>
                                         </Link>
                                     </h3>
-                                    <span>Card</span>
+                                    <span>Voxsnap</span>
                                 </div>
                                 <div className="bottom-two">
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus nostrum ipsam suscipit dignissimos quis animi quod culpa</p>
+                                    <p>Python, Django, React.js, AWS, MySQL</p>
                                     <Link href="/case-study-details">
                                         <a target="_blank">
                                             Explore More <i className="flaticon-right-arrow"></i>
@@ -93,19 +93,19 @@ const Portfolio = () => {
                     <div className="col-sm-6 col-lg-6">
                         <div className="portfolio-item">
                             <div className="top">
-                                <img src="/images/portfolio/portfolio4.jpg" alt="Portfolio" />
+                                <img src="/images/portfolio/source_digital.png" alt="Portfolio" />
                             </div>
                             <div className="bottom">
                                 <div className="bottom-one">
                                     <h3>
                                         <Link href="/case-study-details">
-                                            <a target="_blank">Food Illustration</a>
+                                            <a target="_blank">Social Media</a>
                                         </Link>
                                     </h3>
-                                    <span>Illustration</span>
+                                    <span>Source Digital</span>
                                 </div>
                                 <div className="bottom-two">
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                                    <p>Node.js, React.js, MongoDB</p>
                                     <Link href="/case-study-details">
                                         <a target="_blank">
                                             Explore More <i className="flaticon-right-arrow"></i>
@@ -119,19 +119,19 @@ const Portfolio = () => {
                     <div className="col-sm-6 col-lg-6">
                         <div className="portfolio-item">
                             <div className="top">
-                                <img src="/images/portfolio/portfolio5.jpg" alt="Portfolio" />
+                                <img src="/images/portfolio/tripninja.png" alt="Portfolio" />
                             </div>
                             <div className="bottom">
                                 <div className="bottom-one">
                                     <h3>
                                         <Link href="/case-study-details">
-                                            <a target="_blank">Package Design</a>
+                                            <a target="_blank">Online Travel Agency</a>
                                         </Link>
                                     </h3>
-                                    <span>Package</span>
+                                    <span>TripNinja</span>
                                 </div>
                                 <div className="bottom-two">
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                                    <p>Python, Django, React.js</p>
                                     <Link href="/case-study-details">
                                         <a target="_blank">
                                             Explore More <i className="flaticon-right-arrow"></i>

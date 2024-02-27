@@ -1,5 +1,4 @@
 import nodemailer from 'nodemailer';
-import sgTransport from 'nodemailer-sendgrid-transport';
 
 const transporter = {
     auth: {
@@ -8,16 +7,25 @@ const transporter = {
     }
 }
 
-const mailer = nodemailer.createTransport(sgTransport(transporter));
+const mailer = nodemailer.createTransport({
+    service: 'gmail',
+    host: 'smtp.gmail.com',
+    port: 587,
+    secure: false,
+    auth: {
+        user: process.env.NEXT_PUBLIC_MAIL_USER,
+        pass: process.env.NEXT_PUBLIC_MAIL_PASSWORD
+    }
+});
 
 export default async (req, res) => {
     console.log(req.body)
     const {name, email, number, subject, text} = req.body;
     const data = {
         // Update the email address here
-        to: 'yourdomain@gmail.com',
+        to: 'brandongalli32@gmail.com',
         from: email,
-        subject: 'Hi there',
+        subject: 'Email from Website',
         text: text,
         html: `
             <b>From:</b> ${name} <br /> 

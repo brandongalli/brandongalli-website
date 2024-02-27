@@ -121,7 +121,7 @@ class Navbar extends Component {
                                         Portfolio
                                     </AnchorLink>
                                 </li>
-                                <li className="nav-item">
+                                {/* <li className="nav-item">
                                     <AnchorLink 
                                         onClick={this.toggleNavbar} 
                                         offset={() => -1} 
@@ -130,7 +130,7 @@ class Navbar extends Component {
                                     >
                                         Blog
                                     </AnchorLink>
-                                </li>
+                                </li> */}
                                 <li className="nav-item">
                                     <AnchorLink 
                                         onClick={this.toggleNavbar} 
@@ -144,18 +144,16 @@ class Navbar extends Component {
                             </ul>
 
                             <div className="side-nav">
-                                <Link href="#">
-                                    <a className="common-btn">
+                                    <a href="/resume/Brandon_Galli_Python_Developer.pdf" download="Brandon_Galli_Python_Developer.pdf" className="common-btn">
                                         Download CV <i className='bx bxs-download'></i>
                                     </a>
-                                </Link>
                             </div>
                         </div>
                     </div>
                 </nav>
 
                 {/* Sidebar Demos Modal */}
-                <div className="demo-side-icon">
+                {/* <div className="demo-side-icon">
                     <button type="button" className="modal-btn" 
                        onClick={this.toggleModal}
                     >
@@ -163,7 +161,7 @@ class Navbar extends Component {
                     </button>
                 </div>
 
-                <SidebarDemosModal onClick={this.toggleModal} active={this.state.sidebarModal ? 'show' : ''} />
+                <SidebarDemosModal onClick={this.toggleModal} active={this.state.sidebarModal ? 'show' : ''} /> */}
             </>
         );
     }
