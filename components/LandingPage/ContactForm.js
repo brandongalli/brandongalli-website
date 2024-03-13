@@ -29,6 +29,7 @@ const INITIAL_STATE = {
 const ContactForm = () => {
 
     const [contact, setContact] = useState(INITIAL_STATE);
+    const [onLoading, setOnLoading] = useState(false);
     const { register, handleSubmit, errors } = useForm();
 
     const handleChange = e => {
@@ -36,16 +37,17 @@ const ContactForm = () => {
         setContact(prevState => ({ ...prevState, [name]: value }));
     }
 
-    const onSubmit = async e => {
-        e.preventDefault();
+    const onSubmit = async (_, event) => {
+        event.preventDefault();
         try {
+            setOnLoading(true);
             const url = `${baseUrl}/api/contact`;
             const { name, email, number, subject, text } = contact;
             const payload = { name, email, number, subject, text };
             await axios.post(url, payload);
-            console.log(url);
             setContact(INITIAL_STATE);
             alertContent();
+            setOnLoading(false);
         } catch (error) {
             console.log(error)
         }
@@ -143,7 +145,7 @@ const ContactForm = () => {
                                 </div>
                             </div>
 
-                            <button type="submit" className="btn common-btn">Send Message <span></span></button>
+                            <button disabled={onLoading} type="submit" className="btn common-btn">Send Message <span></span></button>
                         </form>
                     </div>
 

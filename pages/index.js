@@ -11,10 +11,7 @@ import Testimonials from '../components/LandingPage/Testimonials';
 import ContactForm from '../components/LandingPage/ContactForm';
 import Footer from '../components/LandingPage/Footer';
 
-const Index = ({jsonData}) => {
-    useEffect(() => {
-        console.log(jsonData)
-    }, [])
+const Index = () => {
     return (
         <> 
             <Navbar />

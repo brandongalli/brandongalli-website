@@ -6,12 +6,12 @@ import CookieConsent from "react-cookie-consent";
 
 const Layout = ({ children }) => {
 
-    // Preloader
-    const [loader, setLoader] = React.useState(true);
+    // // Preloader
+    // const [loader, setLoader] = React.useState(true);
 
-    React.useEffect(() => {
-        setTimeout(() => setLoader(false), 1500);
-    }, [])
+    // React.useEffect(() => {
+    //     setTimeout(() => setLoader(false), 1500);
+    // }, [])
 
     return(
         <>
@@ -25,11 +25,11 @@ const Layout = ({ children }) => {
 
             {children}
 
-            {loader ? <Preloader /> : null}
+            {/* {loader ? <Preloader /> : null} */}
         
             <GoTop scrollStepInPx="100" delayInMs="10.50" />
 
-            <CookieConsent>This website uses cookies to enhance the user experience.</CookieConsent>
+            {/* <CookieConsent>This website uses cookies to enhance the user experience.</CookieConsent> */}
         </>
     );
 }
