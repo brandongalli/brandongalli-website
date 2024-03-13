@@ -22,7 +22,7 @@ steps:
       [
         "run",
         "deploy",
-        "af-interactive",
+        "brandongalli.com",
         "--image",
         "us-central1-docker.pkg.dev/$PROJECT_ID/bgalli-docker-repo/bgalli.com-image:$COMMIT_SHA",
         "--region",
