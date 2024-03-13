@@ -19,7 +19,7 @@ const Portfolio = () => {
                             <div className="bottom">
                                 <div className="bottom-one">
                                     <h3>
-                                        <Link href="/case-study-details">
+                                        <Link href="https://www.cru.ie/">
                                             <a target="_blank">The Commission for Regulation of Utilities</a>
                                         </Link>
                                     </h3>
@@ -28,7 +28,7 @@ const Portfolio = () => {
                                 <div className="bottom-two">
                                     <p>Python, Django, React.js, Next.js, AWS</p>
 
-                                    <Link href="/case-study-details">
+                                    <Link href="https://www.cru.ie/">
                                         <a target="_blank">
                                             Explore More <i className="flaticon-right-arrow"></i>
                                         </a>
@@ -46,7 +46,7 @@ const Portfolio = () => {
                             <div className="bottom">
                                 <div className="bottom-one">
                                     <h3>
-                                        <Link href="/case-study-details">
+                                        <Link href="https://www.taza.iq/">
                                             <a target="_blank">Taza</a>
                                         </Link>
                                     </h3>
@@ -54,7 +54,7 @@ const Portfolio = () => {
                                 </div>
                                 <div className="bottom-two">
                                     <p>Python, Flask, Vue.js, AWS</p>
-                                    <Link href="/case-study-details">
+                                    <Link href="https://www.taza.iq/">
                                         <a target="_blank">
                                             Explore More <i className="flaticon-right-arrow"></i>
                                         </a>
@@ -72,7 +72,7 @@ const Portfolio = () => {
                             <div className="bottom">
                                 <div className="bottom-one">
                                     <h3>
-                                        <Link href="/case-study-details">
+                                        <Link href="https://voxsnap.com">
                                             <a target="_blank">Multi Media</a>
                                         </Link>
                                     </h3>
@@ -80,7 +80,7 @@ const Portfolio = () => {
                                 </div>
                                 <div className="bottom-two">
                                     <p>Python, Django, React.js, AWS, MySQL</p>
-                                    <Link href="/case-study-details">
+                                    <Link href="https://voxsnap.com/">
                                         <a target="_blank">
                                             Explore More <i className="flaticon-right-arrow"></i>
                                         </a>
@@ -98,7 +98,7 @@ const Portfolio = () => {
                             <div className="bottom">
                                 <div className="bottom-one">
                                     <h3>
-                                        <Link href="/case-study-details">
+                                        <Link href="https://sourcedigital.com/">
                                             <a target="_blank">Social Media</a>
                                         </Link>
                                     </h3>
@@ -106,7 +106,7 @@ const Portfolio = () => {
                                 </div>
                                 <div className="bottom-two">
                                     <p>Node.js, React.js, MongoDB</p>
-                                    <Link href="/case-study-details">
+                                    <Link href="https://sourcedigital.com/">
                                         <a target="_blank">
                                             Explore More <i className="flaticon-right-arrow"></i>
                                         </a>
@@ -124,7 +124,7 @@ const Portfolio = () => {
                             <div className="bottom">
                                 <div className="bottom-one">
                                     <h3>
-                                        <Link href="/case-study-details">
+                                        <Link href="https://www.tripninja.io/">
                                             <a target="_blank">Online Travel Agency</a>
                                         </Link>
                                     </h3>
@@ -132,7 +132,7 @@ const Portfolio = () => {
                                 </div>
                                 <div className="bottom-two">
                                     <p>Python, Django, React.js</p>
-                                    <Link href="/case-study-details">
+                                    <Link href="https://www.tripninja.io/">
                                         <a target="_blank">
                                             Explore More <i className="flaticon-right-arrow"></i>
                                         </a>

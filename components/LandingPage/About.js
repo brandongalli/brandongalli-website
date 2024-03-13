@@ -22,7 +22,10 @@ const About = () => {
                     </div>
                     <div className="section-title">
                         <span className="sub-title">Key Competencies</span>
-                        <p>Frontend development | UI/UX design | agile | communication | problem solving | mentoring | project planning | object-oriented programing | backend development | database | devops | machine learning | authentication | authorization | version control | fast learning | test-driven development | attention to detail | payment integration | code review </p>
+                        <p>
+                            Frontend development | Backend Development | DevOps | Mobile Development | Database Development | Machine Learning |
+                            UI/UX design | Agile | Communication | Collaboration | Mentorship | Problem Solving | Self-Driven | Self-Organized 
+                        </p>
                     </div>
                 </div>
             </div>
