@@ -80,9 +80,6 @@
     display: block;
     width: 100%;
   }
-  .main-area .main-content {
-    padding-left: 0;
-  }
   /*-- Banner --*/
   .banner-area {
     height: 100%;
@@ -1066,15 +1063,6 @@
   .banner-area.four .banner-img img {
     right: 30px;
     max-width: 625px;
-  }
-}
-
-@media only screen and (min-width: 1800px) {
-  .main-area .main-left-img {
-    width: 650px;
-  }
-  .main-area .main-content {
-    padding-left: 650px;
   }
 }
 
