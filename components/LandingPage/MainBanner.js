@@ -13,7 +13,10 @@ const MainBanner = () => {
           <div className="container">
             <div className="banner-content">
               <div className="avatar">
-                <img src="/images/banner/avatar.png" alt="Image" />
+                <img
+                  src="https://storage.googleapis.com/brandongalli-com-assets/avatar.png"
+                  alt="Image"
+                />
               </div>
               <h1>Brandon Galli</h1>
               <h3>
